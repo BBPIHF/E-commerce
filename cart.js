@@ -128,7 +128,7 @@ function totalProductPrice(){
         checkoutBtn.innerHTML = `cart is empty`;
     }
     else{
-        checkoutBtn.innerHTML = `checkout now: ${(existingTotal).toFixed(2)}`;
+        checkoutBtn.innerHTML = `checkout now: $${(existingTotal).toFixed(2)}`;
     }
     
 }
